@@ -1,0 +1,300 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    list-style:none;
+}
+
+
+header{       
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    box-shadow: 2px 2px 600px 600px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 50px;
+    
+}
+
+.header-brand{
+    width: 50px;
+}
+
+header ul {
+    display: flex;
+  
+}
+
+header ul li
+{
+    padding: 10px;
+}
+
+header ul li a:hover
+{
+    border-bottom: 2px solid  #ffffff;
+}
+
+body{
+    background-image: url(img/teclado.png); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#home
+{
+    color: #00D646;
+}
+
+
+
+
+
+#vacio{
+    width:100%;
+    height: 900px;
+   
+}
+
+
+.texto{
+    margin-top: 150px;
+    margin-left: 550px;
+    width:800px;
+    height: 300px;
+    font-family: 'Montserrat', sans-serif;    
+    color: white;
+    letter-spacing: 10px;
+}
+
+#nombre{
+    font-size: 70px;
+    font-weight: bold;    
+}
+
+
+#ocupacion{   
+    margin-top:50px; 
+        font-size: 20px;
+}
+#contenedor
+{
+    margin-top: 30px;
+    width:100%;
+    height:1000px;
+    background-image: url(img/laptop.jpg); 
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+ 
+}
+
+#profesional{
+    padding-top: 150px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;    
+   color: white;
+   letter-spacing: 10px;
+}
+
+
+
+
+table{
+    font-family: 'Montserrat', sans-serif;    
+    color:white;
+    margin-top:-120px;
+    border-collapse:separate; 
+    border-spacing: 50px 12px;
+}
+
+
+.barra{    
+    background:#00D646;    
+    color:#00D646; 
+    
+}
+
+#htmlCss{
+    
+    width: 190px;
+}
+
+#javascript{
+    width: 210px;
+}
+
+#java{
+    width: 250px; 
+  
+}
+
+#php{
+    width: 200px; 
+  
+}
+
+#sql{
+    width: 270px; 
+   
+}
+
+#github{
+    width: 280px; 
+}
+
+
+#portafolio
+{
+    
+    width:100%;
+    height:1000px;
+    background-image: url(img/pantallas.jpg); 
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+ 
+}
+
+#fotos
+{
+    margin-top: -200px;
+}
+
+#fotos img
+{
+    margin-right: -4px;
+}
+
+#contact
+{
+    width:100%;
+    height:1000px;
+    background-image: url(img/codigo.jpg); 
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+
+
+#name, #email{
+   width: 172px;
+}
+
+#phone
+{
+    margin-top:12px;
+    width:350px;
+}
+
+#message
+{
+    margin-top:12px;
+    width:350px;
+}
+
+#send
+{
+    margin-top:12px;
+    width:350px;
+}
+
+form input{
+
+    padding: 15px;
+}
+
+form textarea{
+    padding: 10px 0 0 10px;
+}
+#bloqueContact{
+    padding-top:250px;
+    width: 700px;
+    height: 350px;
+   
+}
+
+#bloqueForm{
+    position:absolute;
+    background: rgba(0, 0, 0, 0.7);   
+    border-radius: 1% 1% 1% 1% ;
+    margin-left: -118px;
+    width: 950px;
+    height: 650px;
+    opacity: 100px;
+
+}
+
+form{
+    position:absolute;
+     margin: 150px 0 0 500px; 
+     border: none;
+     border-style: none;
+     box-shadow: none;
+     
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+input:hover, textarea:hover{
+    background:rgba(161, 241, 187);
+    border: none;
+    
+}
+
+#submit
+{
+    background:rgb(0, 214, 70);
+}
+
+ #bloqueTexto{
+    position: absolute;
+    height:450px;
+    width:270px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    margin-top:150px;
+    border-collapse:separate; 
+    border-spacing: 50px 12px;
+    text-align: left;
+    margin-left: 30px;
+
+}
+
+#titulo{
+    font-size: 40px;   
+
+}
+
+#subtitulo{
+    
+    font-size: 15px;   
+
+}
+
+#linkedin
+{
+    margin-top: 530px;
+    width:50px;
+}
