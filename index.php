@@ -83,52 +83,55 @@
                     <tr>
                         <td>Html & CSS</td>
                         <td>
-                            <div class="barra" id="htmlCss">.</div>
+                            <div class="barra" id="htmlCss"></div>
                         </td>
                         <td>60%</td>
                     </tr>                    
                     <tr>
                         <td>Javascript</td>
                         <td>
-                            <div class="barra" id="javascript">.</div>
+                            <div class="barra" id="javascript"></div>
                         </td>
                         <td>65%</td>
                     </tr>      
                     <tr>
                         <td>Java</td>
                         <td>
-                            <div class="barra" id="java">.</div>
+                            <div class="barra" id="java"></div>
                         </td>
                         <td>80%</td>
                     </tr>      
                     <tr>
-                        <td>Apex</td>
+                        <td>GitHub</td>
                         <td>
-                            <div class="barra" id="java"> .</div>
+                            <div class="barra" id="java"> </div>
                         </td>
                         <td>80%</td>
                     </tr> 
                     <tr>
                         <td>PHP</td>
                         <td>
-                            <div class="barra" id="php"> .</div>
+                            <div class="barra" id="php"> </div>
                         </td>
                         <td>75%</td>
                     </tr>
                     <tr>
                         <td>Sql</td>
                         <td>
-                            <div class="barra" id="sql">.</div>
+                            <div class="barra" id="sql"></div>
                         </td>
                         <td>85%</td>
                     </tr>
                     <tr>
-                        <td>GitHub</td>
+                        <td></td>
                         <td>
-                            <div class="barra" id="github">.</div>
+                            <div class="barra" id="github"></div>
                         </td>
-                        <td>90%</td>
-                    </tr>      
+                        <td></td>
+                    </tr>    
+                    
+                   
+
                 </table>
             </center>
               
@@ -136,7 +139,6 @@
     </div>
 
 
-    
     <div id="portafolio">
         <center id="profesional"><p > 02. PORTAFOLIO</p>        </center>
             

@@ -130,40 +130,9 @@ table td{
     padding-right: 15px;
 }
 
-.barra{    
-    background:#00D646;    
-    color:#00D646; 
-    
-}
 
-#htmlCss{
-    
-    width: 190px;
-}
 
-#javascript{
-    width: 210px;
 
-}
-
-#java{
-    width: 250px; 
-  
-}
-
-#php{
-    width: 200px; 
-  
-}
-
-#sql{
-    width: 270px; 
-   
-}
-
-#github{
-    width: 280px; 
-}
 
 
 #portafolio
@@ -318,4 +287,106 @@ input[type="submit"]:hover{
 {
     margin-top: 530px;
     width:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*animacion*/
+
+
+.barra{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+ 
+}
+
+
+#php{
+    width: 88%;
+    height: 30px;
+    background:#00D646;    
+    
+}
+
+
+
+
+
+#htmlCss{
+    
+     width: 60%;
+    height: 30px;
+    background:#00D646;    
+    
+}
+
+#javascript{
+    width: 65%;
+    height: 30px;
+    background:#00D646;    
+    
+
+}
+
+#java{
+    width: 80%;
+    height: 30px;
+    background:#00D646;    
+    
+  
+}
+
+#php{
+     width: 75%;
+    height: 30px;
+    background:#00D646;    
+    
+  
+}
+
+#sql{
+     width: 85%;
+    height: 30px;
+    background:#00D646;    
+    
+   
+}
+
+#github{
+     width: 80%;
+    height: 30px;
+    background:#00D646;    
+}
+
+
+
+ 
+.barra {
+   -webkit-animation: progress-barra 3s;
+   -moz-animation: progress-barra 3s;
+}
+ 
+@-webkit-keyframes progress-barra {
+  0% { width: 0; }
+} 
+ 
+@-moz-keyframes progress-barra {
+   0% { width: 0; }
 }
