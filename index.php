@@ -9,10 +9,30 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,600&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 </head>
 
 
 <body>
+
+
+
+
+     <?php if ($_GET["email"]=="success")
+     {
+        echo"<script> alert('Email enviado')</script>";
+     }?> 
+        
+  
+
+
+
+
+
+
 
    <header>
         
@@ -150,28 +170,27 @@
                         <div id="titulo"><p > CONTACT </p>        </div>
                         <br><br>
             
-                        <div id="subtitulo"><p > I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.<br><br><br>                         ​
+                        <div id="subtitulo"><p > <br><br>                        ​
                             
-                            info@mysite.com
+                            salasfacundo96@gmail.com
                             <br><br><br>              
-                            Tel: 1-800-000-0000</p>        </div>
+                            Tel: 2236005531</p>        </div>
                     </div>
 
 
 
 
-                    <form action="index-action" method="post">
+                    <form action="index-action.php" method="post" id="formulario">
 
-                        <input type="text" id="name" name="name" placeholder="Name">
-                        <input type="text" id="email" name="email" placeholder="Email"> <br>
-                        <input type="text" id="phone" name="phone" placeholder="Phone"><br>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea><br>
-                        <input type="submit" id="send" value="SEND">
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                        <input type="email" id="email" name="email" placeholder="Email" required> <br>
+                        <input type="number" id="phone" name="phone" placeholder="Phone" min="0" max="9999999999" required><br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"  required></textarea><br>
+                        <input type="submit" id="send" value="SEND" >
                       
                     </form>
 
-
-
+                    
 
 
 
@@ -186,5 +205,6 @@
     </div>
 
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    
 </body>
 </html>
